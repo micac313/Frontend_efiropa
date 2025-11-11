@@ -1,23 +1,33 @@
-
 import React from "react";
-
-import CarouselHome from "../contexts/carousel";
-import Inventory from "./NewIn";
+import CarouselHome from "../contexts/carousel"; // el carrusel
+import Destacados from "./Destacados";          // productos destacados
+import NewIn from "./NewIn";                    // productos nuevos
 import Footer from "../components/footer";
 import { Box, Typography } from "@mui/material";
 
 export default function Home() {
   return (
     <Box sx={{ bgcolor: "background.default" }}>
+      {/* Carrusel */}
       <CarouselHome />
 
+      {/* Destacados */}
       <Box sx={{ p: { xs: 2, md: 6 }, textAlign: "center" }}>
         <Typography variant="h5" fontWeight="bold" gutterBottom>
-          Lo mas vendido
+          Lo más vendido
         </Typography>
-        <Inventory />
+        <Destacados />
       </Box>
 
+      {/* New In */}
+      <Box sx={{ p: { xs: 2, md: 6 }, textAlign: "center" }}>
+        <Typography variant="h5" fontWeight="bold" gutterBottom>
+          Lo nuevo
+        </Typography>
+        <NewIn />
+      </Box>
+
+      {/* Footer solo una vez, al final */}
       <Footer />
     </Box>
   );
