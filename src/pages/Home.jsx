@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselHome from "../contexts/carousel"; // el carrusel
-import Destacados from "./Destacados";          // productos destacados
-import NewIn from "./NewIn";                    // productos nuevos
+import Destacados from "../components/Destacados";          // productos destacados
+import NewIn from "../components/NewIn";                    // productos nuevos
 import Footer from "../components/footer";
 import { Box, Typography } from "@mui/material";
 

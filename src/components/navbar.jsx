@@ -75,7 +75,7 @@ export default function Navbar() {
                 <MenuItem component={RouterLink} to="/categoria/chombas" onClick={handleCloseShop}>
                   Chombas
                 </MenuItem>
-                <MenuItem component={RouterLink} to="/categoria/remeras" onClick={handleCloseShop}>
+                <MenuItem component={RouterLink} to="/remeras" onClick={handleCloseShop}>
                   Remeras
                 </MenuItem>
               </Menu>

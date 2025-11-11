@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Box, Typography } from "@mui/material";
 
 const images = [
-  { src: "/images/ropa/REMERAHOMBRE1.jpg", title: "Remeras Oversize", text: "Comodidad y estilo urbano" },
-  { src: "/images/ropa/BABUCHAHOMBRE1.jpg", title: "Pantalones Jogger", text: "Perfectos para todos los días" },
-  { src: "/images/ropa/CHOMBA1.jpg", title: "Chombas Modernas", text: "Elegancia casual" },
+  { src: "/images/ropa/CARRUSEL1.webp", },
+  { src: "/images/ropa/CARRUSEL2.webp", },
 ];
 
 export default function CarouselHome() {

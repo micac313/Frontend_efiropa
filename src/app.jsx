@@ -7,8 +7,9 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AdminPanel from "./pages/AdminPanel";
 import Carrito from "./pages/Carrito"; 
-import Destacados from "./pages/Destacados";
-import NewIn from "./pages/NewIn";
+import Destacados from "./components/Destacados";
+import NewIn from "./components/NewIn";
+import Remeras from "./pages/Remeras";
 
 export default function App() {
   return (

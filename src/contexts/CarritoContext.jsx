@@ -1,8 +1,6 @@
 import React, { createContext, useState, useContext } from "react";
 
-const CarritoContext = createContext();
-
-// Hook personalizado para usar el carrito fácilmente
+export const CarritoContext = createContext();
 export const useCarrito = () => useContext(CarritoContext);
 
 export const CarritoProvider = ({ children }) => {

@@ -33,9 +33,9 @@ export default function Inventory({ category }) {
     "new-in": [
       {
         id: 4,
-        nombre: "Camisa Linen",
+        nombre: "Palazzo Linen",
         precio: 15000,
-        descripcion: "Camisa fresca de lino",
+        descripcion: "Palazzo fresco de lino",
         imagen: "/images/ropa/PALAZZO1.jpg",
       },
       {
