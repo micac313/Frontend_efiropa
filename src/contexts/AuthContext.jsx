@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect } from 'react';
-import api from '../api/axios';
+import api from '../../api/axios';
 import { useSnackbar } from 'notistack';
 
 export const AuthContext = createContext();

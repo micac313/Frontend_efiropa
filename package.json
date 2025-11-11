@@ -8,18 +8,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.2",
-    "@mui/material": "^5.14.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.0",
+    "@mui/material": "^5.14.0",
     "axios": "^1.4.0",
-    "react-hook-form": "^7.46.0",
-    "yup": "^1.2.0",
-    "notistack": "^2.0.6",
     "jspdf": "^2.5.1",
-    "jspdf-autotable": "^3.5.28"
+    "jspdf-autotable": "^3.5.28",
+    "notistack": "^2.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.46.0",
+    "react-router-dom": "^6.11.2",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "vite": "^4.5.0"
